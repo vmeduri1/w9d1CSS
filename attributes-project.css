@@ -65,14 +65,12 @@ a > span:hover {
 
 .page-container {
   max-width: 1200px;
-  border: 1px solid red;
 }
 
 #leftbar, #center, #rightbar {
   float: left;
   padding: 0 30px;
   box-sizing: border-box;
-  border: 1px solid red;
 }
 
 footer {
@@ -113,3 +111,30 @@ h4.ban::before {
 	content: "☮";
 }
 
+td {
+  border: 1px solid #333;
+  text-align: center;
+  color: rgba(0,0,0,0.5)
+}
+
+.cal {
+  border-collapse: collapse;
+}
+
+.cal a {
+  color: green;
+  font-weight: bold;
+}
+
+.past {
+  cursor: not-allowed;
+}
+
+td.today a{
+  background-color: darkviolet;
+  color: white;
+}
+
+td a:hover {
+  background-color: lavender;
+}
