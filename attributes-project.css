@@ -138,3 +138,15 @@ td.today a{
 td a:hover {
   background-color: lavender;
 }
+
+#query:focus {
+	background-color: yellow;
+}
+
+ul li:first-child{
+	font-style: italic;
+}
+
+ul li:last-child{
+	font-weight: bold;
+}
